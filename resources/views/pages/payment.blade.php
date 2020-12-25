@@ -41,9 +41,9 @@
     
                     <div class="col-md-6">
                         <select name="plan" id="subscription-plan" class="form-control pl-3" required>
-                            @foreach ($availablePlans as $key=>$plan)
-                                <option value="{{ $key }}">{{ $plan }}</option>
-                            @endforeach
+                            <option value="price_1HqcxPGsRSEUKkZIn10Ufjx9">Daily</option>
+                            <option value="price_1HqcxPGsRSEUKkZIUvtCJy4p">Monthly</option>
+                            <option value="price_1HqcxQGsRSEUKkZIOIilw5J5">Yearly</option>
                         </select>
                     </div>
                 </div>
